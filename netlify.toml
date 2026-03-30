@@ -3,4 +3,11 @@
   to = "https://intelligentbuildings.ca/:splat"
   status = 301
   force = true
-  conditions = { Host = ["intelligentbuildingssolutions.ca", "www.intelligentbuildingssolutions.ca"] }
+  conditions = { Host = ["intelligentbuildingssolutions.ca"] }
+
+[[redirects]]
+  from = "/*"
+  to = "https://intelligentbuildings.ca/:splat"
+  status = 301
+  force = true
+  conditions = { Host = ["www.intelligentbuildingssolutions.ca"] }
