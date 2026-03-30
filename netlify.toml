@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://intelligentbuildings.ca/:splat"
+  status = 301
+  force = true
