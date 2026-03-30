@@ -3,4 +3,4 @@
   to = "https://intelligentbuildings.ca/:splat"
   status = 301
   force = true
-  conditions = { Host = ["intelligentbuildingssolutions.ca"] }
+  conditions = { Host = ["intelligentbuildingssolutions.ca", "www.intelligentbuildingssolutions.ca"] }
